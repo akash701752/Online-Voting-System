@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+    <div class="navbar">
+        
+        <div>
+            <a href="#">Online Voting System</a> <span>| </span>
+            <a href="./index.html"> Home </a>  <span>| </span>
+        </div>
+        <div>
+            <a href="./login.html">Existing User</a><span>| </span>
+            <a href="./login.html">Login</a>
+        </div>
+    
+    </div>
+
+    <div class="maindiv">
+        <div class="firstdiv">
+            <h1>New User SignUp here</h1>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="register">
+            <h2>Register Here</h2>
+            <form id="register" action="../Mini/api/register.php" method="post" enctype="multipart/form-data">
+                <label for="">Name </label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter Your First Name " required>
+                <br>
+                <label for="">Enter Your Email </label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Enter your Email Address"required>
+                <br>
+                <label for="">Password  </label>
+                <br>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required>
+                <br>
+                <label for="">Confirm Password  </label>
+                <br>
+                <input type="password" name="cpassword" id="cpassword" placeholder="Confirm Your Password" required>
+                <br>
+                <label for="">Select Profile Image </label>
+                <br>
+                <input type="file" name="profile" id="profile">
+                <br>
+                <label for="">Contact No. </label>
+                <br>
+                <input type="number" name="contact" id="contact" placeholder="Enter Phone Number" required>
+                <br>
+                <label for="">Select Role </label>
+                <br>
+                <select name="role" id="role" class="role">
+                    <option value="1">Voter</option>
+                    <option value="2">Representative</option>
+                </select>
+                <br>
+                <br> 
+                <input type="submit" id="submit" name="submit" value="Register"></input>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>

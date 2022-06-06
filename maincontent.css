@@ -1,0 +1,87 @@
+.maindiv{
+    display: grid;
+    padding: 0 0vmax;
+}
+.firstdiv{
+    background-color: white;
+
+}
+.maindiv > div > h1{
+    display: flex;
+    flex: content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    color: coral;
+    font-weight: 500;
+    font-size: 3.5vmax;
+}
+.secdiv > p{
+    display: flex;
+    background-color: rgb(101, 87, 87);
+    
+    color: white;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5vmax;
+    font-weight: 500;
+}
+.image{
+    display: flex;
+    padding-left: 4vmax;
+    padding-top: 1vmax;
+    
+    justify-content: center;
+    height: 250px;
+    /*
+    //box-shadow: 6px 6px 6px rgb(102, 66, 181);
+    //transition: all ;
+    */
+    
+}
+.thirddiv >p{
+    display: flex;
+    background-color: rgba(152, 61, 40, 0.77);
+    color: white;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5vmax;
+    font-weight: 500;
+}
+/*
+
+*/
+.fourdiv >p{
+    display: flex;
+    background-color: rgba(60, 46, 211, 0.77);
+    color: white;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5vmax;
+    font-weight: 100;
+}
+.fourdiv >p > a{
+    color: white;
+}
+.fourdiv >p > a:hover{
+    color: rgb(214, 246, 7);
+}
+.fifthdiv >p{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.77);
+    color: white;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5vmax;
+    font-weight: 100;
+}
+.content > p{
+    color: black;
+    display: grid;
+    justify-content: center;
+    padding-left: 35%;
+    padding-right: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4vmax;
+    
+}

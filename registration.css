@@ -1,0 +1,135 @@
+.navbar{
+    background-color: rgb(36, 41, 42);
+    display:grid;
+    padding: 0;
+    grid-template-columns: 5fr 1fr;
+    color: white;
+}
+
+.navbar > div{
+    padding: 0 0vmax;
+    display: flex ;
+    align-items: center;
+ }
+
+ .navbar > div >span{
+    color: rgba(180, 180, 180, 0.644);
+    font-size: 1vmax;
+    font-weight: 300;
+}
+/*
+.navbar > div svg{
+    fill: rgb(180, 180, 180);
+}
+
+.navbar > div svg:hover{
+    fill: rgb(255, 255, 255);
+}
+*/
+
+.navbar > div > a{
+
+    color: white;
+    font-size: 1.4vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin: 1vmax;
+    text-decoration: none;
+}
+
+.navbar > div > a:hover{
+    color: rgb(219, 112, 112);
+}
+
+.maindiv{
+    display: grid;
+    padding: 0 0vmax;
+}
+.firstdiv{
+    background-color: white;
+
+}
+.maindiv > div > h1{
+    display: flex;
+    flex: content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    color: rgb(41, 132, 202);
+    font-weight: 100;
+    font-size: 3.5vmax;
+}
+
+div.main{
+    display: flex;
+    flex: content;
+    /*justify-content: center; */
+    /*background-color: aqua;*/
+    /*font-size: 1.5vmax;*/
+    width: 70%;
+   
+    margin: 100px auto 0px auto ;
+
+}
+h2{
+    display:flex ;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+div.register{
+    flex: content;
+    background-color: rgb(124, 119, 119);
+    width: 100%;
+    font-size: 28px;
+    border-radius: 10px;
+    box-shadow:3px 3px 40px ;
+}
+
+form#register{
+    margin: 40px;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color:white;
+    
+}
+input{
+    width:60%;
+    border : 1px solid #ddd ;
+    border-radius: 3px;
+    outline: 0;
+    padding:7px ;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 25px;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(250,100,0,0.8);
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    margin-bottom: 20px;
+}
+.role{
+    width: 60%;
+    font-size: 25px;
+    outline: 0;
+    padding:7px ;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3) ;
+}
+label,span,h2{
+    flex: content;
+    text-shadow: 1px 1px 5px rgba(176, 76, 141, 0.3);
+
+}
