@@ -60,7 +60,7 @@
         
         <div>
             <a href="#">Online Voting System</a> <span>| </span>
-            <a href="./index.html"> Home </a>  <span>| </span>
+            <a href="./index.php"> Home </a>  <span>| </span>
         </div>
         <div>
             <a href="./register.html"> </a><span>| </span>

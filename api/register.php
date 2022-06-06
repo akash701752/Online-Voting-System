@@ -25,14 +25,14 @@
             echo '
             <script>
                 alert("Registration done Succeffully "); 
-                window.location = "../"  ; 
+                window.location = "../login.html"  ; 
             </script>
         ';
         }
         else{
             echo '
             <script>
-                alert("Registration done Succeffully "); 
+                alert("Some Error Occured in Registration  "); 
                 window.location = "../register.html"  ; 
             </script>
         ';
