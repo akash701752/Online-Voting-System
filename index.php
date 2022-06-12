@@ -8,23 +8,29 @@
     <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="./maincontent.css">
 </head>
+    <style>
+        body{
+            margin: 0 ;
+            padding:0 ;
+        }
+    </style>
 <body>
-    
-    <div class="navbar">
-        
-            <div>
-                <a href="/">Online Voting System</a> <span>| </span>
-                <a href="./register.html"> Register  </a>  <span>| </span>
-                <a href="./login.html">Login </a> <span></span>
-                <a href="/">Contact Us</a> <span> | </span>
-            </div>
-            <div>
-            <a href="./login.html">SignIn</a><span>| </span>
-                <a href="./register.html">SignUp</a> <span>| </span>
-            </div>
-        
-    </div>
-
+    <navbar class="nav">
+        <div class="navbar">
+            
+                <div>
+                    <a href="/">Online Voting System</a> <span>| </span>
+                    <a href="./register.html"> Register  </a>  <span>| </span>
+                    <a href="./login.html">Login </a> <span></span>
+                    <a href="/">Contact Us</a> <span> | </span>
+                </div>
+                <div>
+                <a href="./login.html">SignIn</a><span>| </span>
+                    <a href="./register.html">SignUp</a> <span>| </span>
+                </div>
+            
+        </div>
+    </navbar>
     <div class="maindiv">
         <div class="firstdiv">
             <h1>Online Voting System</h1>

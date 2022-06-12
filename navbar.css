@@ -1,8 +1,12 @@
+*{
+    margin:0;
+    padding: 0;
+}
 .navbar{
     background-color: rgb(26, 25, 25);
     display:grid;
     padding: 0;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 6fr 1fr;
     color: white;
 }
 

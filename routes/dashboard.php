@@ -23,6 +23,12 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="../Styles/dashboard.css">
 </head>
+    <style>
+        body{
+            margin: 0 ;
+            padding:0 ;
+        }
+    </style>
 <body >
     <style>
         .profile{
