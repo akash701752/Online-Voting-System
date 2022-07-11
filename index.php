@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OnlineVoting</title>
-    <link rel="stylesheet" href="./navbar.css">
-    <link rel="stylesheet" href="./maincontent.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="maincontent.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
     <style>
         body{
@@ -22,7 +23,7 @@
                     <a href="/">Online Voting System</a> <span>| </span>
                     <a href="./register.html"> Register  </a>  <span>| </span>
                     <a href="./login.html">Login </a> <span></span>
-                    <a href="/">Contact Us</a> <span> | </span>
+                    <a href="#content">Contact Us</a> <span> | </span>
                 </div>
                 <div>
                 <a href="./login.html">SignIn</a><span>| </span>
@@ -31,9 +32,11 @@
             
         </div>
     </navbar>
-    <div class="maindiv">
+        <div class="maindiv">
         <div class="firstdiv">
-            <h1>Online Voting System</h1>
+            <marquee width="100%" direction="right" height="100px">
+                <h1>Online Voting System</h1>
+            </marquee>
         </div>
         <div class="secdiv"> 
             <p>
@@ -53,7 +56,7 @@
         </div>
         <div class='fourdiv'>
             <p>
-                <a href="/"> Click here to Register  for Online Voting Portal </a>
+                <a href="./register.html"> Click here to Register  for Online Voting Portal </a>
             </p>
         </div>
         <div class='image'>
@@ -65,11 +68,42 @@
             </p>
             
         </div>
-        <div class='content'>
-            <p>
-                Electronic voting (also known as e-voting) is voting that uses electronic means to either aid or take care of casting and counting Votes.   
-            </p>
+    
+            <div class="content" id = "content">
+                <p>
+                    Electronic voting (also known as e-voting) is voting that uses electronic means to either aid or take care of casting and counting Votes.   
+                </p>
+            </div>
+       
         </div>
-    </div>
+        <section class="footer">
+            <div class="social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+            <p class="copyright">
+                Akash Yadav @ 2022 
+            </p>
+        </section>
+    
 </body>
 </html>
