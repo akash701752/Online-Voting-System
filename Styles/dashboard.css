@@ -1,9 +1,11 @@
 .navbar{
-    background-color: rgb(36, 41, 42);
+    background-color: black;
     display:grid;
     padding: 0;
     grid-template-columns: 5fr 1fr;
     color: white;
+    position: sticky;
+    top: 0;
 }
 
 .navbar > div{
@@ -49,7 +51,7 @@
     background-color: white;
 
 }
-.maindiv > div > h1{
+.maindiv > div > marquee > h1{
     display: flex;
     flex: content;
     font-family: Georgia, 'Times New Roman', Times, serif;

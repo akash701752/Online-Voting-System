@@ -20,12 +20,12 @@
 }
 .secdiv > p{
     display: flex;
-    background-color: rgb(101, 87, 87);
+    background-color: rgb(83, 131, 83);
     
     color: white;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.5vmax;
+    font-size: 3.5vmax;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -112,7 +112,8 @@
     opacity: 0.75;
 }
 .footer .social a:hover{
-    opacity: .9;
+    opacity: 2;
+    color: yellow;
 }
 .footer >ul{
     margin-top: 0;
@@ -127,6 +128,9 @@
     color: white;
     text-decoration: none;
     opacity: 0.8;
+}
+.footer >ul >li >a:hover{
+    color: rgb(218, 46, 224);
 }
 .footer >ul >li{
     display: inline-block;

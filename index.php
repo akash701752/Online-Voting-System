@@ -76,6 +76,8 @@
             </div>
        
         </div>
+        
+</body>
         <section class="footer">
             <div class="social">
                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -105,5 +107,4 @@
             </p>
         </section>
     
-</body>
 </html>

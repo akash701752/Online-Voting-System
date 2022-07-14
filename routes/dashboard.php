@@ -62,11 +62,11 @@
         }
     </style>
    
-<div class="navbar">
+    <div class="navbar">
         
         <div>
             <a href="#">Online Voting System</a> <span>| </span>
-            <a href="./index.php"> Home </a>  <span>| </span>
+            <a href="#"> Home </a>  <span>| </span>
         </div>
         <div>
             <a href="./register.html"> </a><span>| </span>
@@ -77,10 +77,11 @@
 
     <div class="maindiv">
         <div class="firstdiv">
-            <h1>Online Voting Dashboard</h1>
+            <marquee width="100%" direction="right" height="100px">
+                <h1>Online Voting Dashboard</h1>
+            </marquee>
         </div>
     </div>
-</div>
 
     <div class="mainsection">
         <div class="profile">
@@ -122,5 +123,6 @@
         </div>
 
     </div>
+    
 </body>
 </html>

@@ -1,9 +1,11 @@
 .navbar{
-    background-color: rgb(36, 41, 42);
+    background-color: black;
     display:grid;
     padding: 0;
     grid-template-columns: 5fr 1fr;
     color: white;
+    position: sticky;
+    top: 0;
 }
 
 .navbar > div{
@@ -26,6 +28,7 @@
     font-weight: 500;
     margin: 1vmax;
     text-decoration: none;
+    
 }
 
 .navbar > div > a:hover{
@@ -60,7 +63,7 @@ div.main{
     width: 50%;
     text-align: center;
     margin: 100px auto 0px auto ;
-
+    margin-bottom: 70px;
 }
 h2{
     display:flex ;
@@ -124,4 +127,57 @@ label,span,h2{
     flex: content;
     text-shadow: 1px 1px 5px rgba(176, 76, 141, 0.3);
 
+}
+.footer{
+    padding: 40px 0;
+    background-color: black;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+.footer .social a{
+    font-size: 25px;
+    color: white;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: .9;
+}
+.footer >ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer >ul >li >a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer >ul >li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer >ul >li >a:hover{
+    opacity: 1;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 10;
+    color: white;
 }
