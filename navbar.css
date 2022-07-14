@@ -25,7 +25,7 @@
  }
 
  .navbar > div >span{
-    color: rgba(180, 180, 180, 0.644);
+    color: white;
     font-size: 1vmax;
     font-weight: 300;
 }
@@ -50,5 +50,5 @@
 }
 
 .navbar > div > a:hover{
-    color: rgb(219, 112, 112);
+    color: rgb(89, 206, 249);
 }
