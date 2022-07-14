@@ -11,15 +11,26 @@
     $tmp_name = $_FILES['profile']['tmp_name'];
     $role = $_POST['role'] ;
     //Checking for duplicate
-    // $existSql = "SELECT * FROM user WHERE name = '$name' ";
-    // $result = mysqli_query($connect, $existSql);
-    // $numExistRows = mysqli_num_rows($result);
-    // if($numExistRows > 0){
-    //     // $exists = true;
-    //     $showError = "Username Already Exists";
-    // }
-    // else{
-        // Checking Password and cpassword
+    $check_user = mysqli_query($connect, " SELECT * FROM user WHERE name = '$name' ");
+    $check_email = mysqli_query($connect, " SELECT * FROM user WHERE email = '$email' ");
+
+    if(mysqli_num_rows($check_user) > 0){
+        echo '
+                <script>
+                    alert("User Name Already Exist "); 
+                    window.location = "../register.html"  ; 
+                </script>
+            ';
+    }
+    else if(mysqli_num_rows($check_email) > 0){
+        echo '
+                <script>
+                    alert("User E-mail already Exist "); 
+                    window.location = "../register.html"  ; 
+                </script>
+            ';
+    }
+    else{
         if($password==$cpassword){
             //$hash = password_hash($password, PASSWORD_DEFAULT);
             $upload_folder = '../uploads/' ;
@@ -58,5 +69,6 @@
                 </script>
             ';
         }
+    }
     
 ?>

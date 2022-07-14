@@ -65,7 +65,7 @@
     <div class="navbar">
         
         <div>
-            <a href="#">Online Voting System</a> <span>| </span>
+            <a href="#">E- Voting System</a> <span>| </span>
             <a href="#"> Home </a>  <span>| </span>
         </div>
         <div>
@@ -78,7 +78,7 @@
     <div class="maindiv">
         <div class="firstdiv">
             <marquee width="100%" direction="right" height="100px">
-                <h1>Online Voting Dashboard</h1>
+                <h1>E- Voting Dashboard</h1>
             </marquee>
         </div>
     </div>

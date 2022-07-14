@@ -4,7 +4,7 @@
 }
 .firstdiv{
     background-color: white;
-
+    margin-top: 25px;
 }
 .maindiv > div > marquee > h1{
     display: flex;
@@ -40,7 +40,7 @@
     //box-shadow: 6px 6px 6px rgb(102, 66, 181);
     //transition: all ;
     */
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .thirddiv >p{
     display: flex;
@@ -48,8 +48,9 @@
     color: white;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.5vmax;
+    font-size: 3vmax;
     font-weight: 500;
+    margin-bottom: 50px;
 }
 /*
 
@@ -60,14 +61,17 @@
     color: white;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.5vmax;
+    font-size: 3vmax;
     font-weight: 100;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 .fourdiv >p > a{
     color: white;
+    text-decoration: none;
 }
 .fourdiv >p > a:hover{
-    color: rgb(214, 246, 7);
+    color: rgb(144, 239, 29);
 }
 .fifthdiv >p{
     display: flex;
@@ -77,6 +81,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5vmax;
     font-weight: 100;
+    margin-top: 50px;
 }
 .content > p{
     color: rgb(14, 12, 12);
@@ -88,6 +93,28 @@
     font-size: 1.4vmax;
     margin-top: 20px;
     margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sixthdiv >p{
+    display: flex;
+    background-color: rgba(25, 198, 128, 0.77);
+    color: white;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5vmax;
+    font-weight: 100;
+}
+.contact > p{
+    color: rgb(14, 12, 12);
+    display: grid;
+    justify-content: center;
+    padding-left: 35%;
+    padding-right: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4vmax;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .footer{
     padding: 40px 0;

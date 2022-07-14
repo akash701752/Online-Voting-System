@@ -20,7 +20,7 @@
         <div class="navbar">
             
                 <div>
-                    <a href="/">Online Voting System</a> <span>| </span>
+                    <a href="/">E-Voting System</a> <span>| </span>
                     <a href="./register.html"> Register  </a>  <span>| </span>
                     <a href="./login.html">Login </a> <span></span>
                     <a href="#content">Contact Us</a> <span> | </span>
@@ -35,12 +35,12 @@
         <div class="maindiv">
         <div class="firstdiv">
             <marquee width="100%" direction="right" height="100px">
-                <h1>Online Voting System</h1>
+                <h1>E- Voting System</h1>
             </marquee>
         </div>
         <div class="secdiv"> 
             <p>
-                An online based Web Portal for Online Voting
+                An online based Web Portal for E - Voting
             </p>
         </div>
         <div class="image">
@@ -56,7 +56,7 @@
         </div>
         <div class='fourdiv'>
             <p>
-                <a href="./register.html"> Click here to Register  for Online Voting Portal </a>
+                <a href="./register.html"> Click here to Register for Online Voting Portal </a>
             </p>
         </div>
         <div class='image'>
@@ -71,13 +71,26 @@
     
             <div class="content" id = "content">
                 <p>
-                    Electronic voting (also known as e-voting) is voting that uses electronic means to either aid or take care of casting and counting Votes.   
+                    Electronic voting (also known as e-voting) is voting that uses electronic means to either aid or take care of casting and counting Votes.
+                    This is our First Full stack web development Project which consist of user Registration Portal for registration and Login Portal for login and casting Votes  
                 </p>
             </div>
        
         </div>
-        
-</body>
+        <div class="sixthdiv">
+            <p>
+                Contact Us 
+            </p>
+            
+        </div>
+    
+        <div class="contact" id = "contact">
+            <p>
+                For further assistance you can contact us +917017522696, +918171435955  mail us onlinevote@gmail.com   
+            </p>
+        </div>
+       
+
         <section class="footer">
             <div class="social">
                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -107,4 +120,5 @@
             </p>
         </section>
     
+</body>
 </html>
