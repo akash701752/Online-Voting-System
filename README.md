@@ -21,10 +21,9 @@ Overall, the online voting system project will provide an easy-to-use and reliab
 ![login](Login.png)
 
 # Languages Used
-![login](Html5.png)   
-![login](Css.png)   
+![login](Html5.png) ![login](Css.png)   
 ![login](php.png)     
 
 # Source 
-Youtube : https://www.youtube.com/
+Youtube : https://www.youtube.com/   
 W3Schools : https://www.w3schools.com/
