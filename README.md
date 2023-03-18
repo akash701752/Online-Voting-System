@@ -15,4 +15,7 @@ Overall, the online voting system project will provide an easy-to-use and reliab
 ![EVoting1](EVoting1.png)
 
 # SignUP
-![Login](SignUp.pmg)
+![SignUp](SignUp.png)
+
+#Login
+![login](Login.png)
